@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Clientes" Class="ClientesModelDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=N039\SQLDEVELOPER;Initial Catalog=Clientes;Integrated Security=True;Pooling=False" SettingsObjectName="Wpf_linq.Properties.Settings" SettingsPropertyName="ClientesConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Clientes" Member="Clientes">
+    <Type Name="Cliente">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nome" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Endereco" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Cidade" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Estado" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="Telefone" Type="System.String" DbType="Char(14)" CanBeNull="true" />
+      <Column Name="Obs" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Association Name="Cliente_Contato" Member="Contato" ThisKey="Id" OtherKey="Id" Type="Contato" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Contatos" Member="Contatos">
+    <Type Name="Contato">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nome" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Telefone" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Cliente" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Cliente_Contato" Member="Cliente1" ThisKey="Id" OtherKey="Id" Type="Cliente" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,15 @@
+c:\users\bruno.marques\documents\visual studio 2012\Projects\Wpf_linq\Wpf_linq\bin\Debug\Wpf_linq.exe.config
+c:\users\bruno.marques\documents\visual studio 2012\Projects\Wpf_linq\Wpf_linq\bin\Debug\Wpf_linq.exe
+c:\users\bruno.marques\documents\visual studio 2012\Projects\Wpf_linq\Wpf_linq\bin\Debug\Wpf_linq.pdb
+c:\users\bruno.marques\documents\visual studio 2012\Projects\Wpf_linq\Wpf_linq\obj\Debug\Wpf_linq.csprojResolveAssemblyReference.cache
+c:\users\bruno.marques\documents\visual studio 2012\Projects\Wpf_linq\Wpf_linq\obj\Debug\ContatoControl.baml
+c:\users\bruno.marques\documents\visual studio 2012\Projects\Wpf_linq\Wpf_linq\obj\Debug\MainWindow.baml
+c:\users\bruno.marques\documents\visual studio 2012\Projects\Wpf_linq\Wpf_linq\obj\Debug\ContatoControl.g.cs
+c:\users\bruno.marques\documents\visual studio 2012\Projects\Wpf_linq\Wpf_linq\obj\Debug\MainWindow.g.cs
+c:\users\bruno.marques\documents\visual studio 2012\Projects\Wpf_linq\Wpf_linq\obj\Debug\App.g.cs
+c:\users\bruno.marques\documents\visual studio 2012\Projects\Wpf_linq\Wpf_linq\obj\Debug\Wpf_linq_MarkupCompile.cache
+c:\users\bruno.marques\documents\visual studio 2012\Projects\Wpf_linq\Wpf_linq\obj\Debug\Wpf_linq.g.resources
+c:\users\bruno.marques\documents\visual studio 2012\Projects\Wpf_linq\Wpf_linq\obj\Debug\Wpf_linq.Properties.Resources.resources
+c:\users\bruno.marques\documents\visual studio 2012\Projects\Wpf_linq\Wpf_linq\obj\Debug\Wpf_linq.csproj.GenerateResource.Cache
+c:\users\bruno.marques\documents\visual studio 2012\Projects\Wpf_linq\Wpf_linq\obj\Debug\Wpf_linq.exe
+c:\users\bruno.marques\documents\visual studio 2012\Projects\Wpf_linq\Wpf_linq\obj\Debug\Wpf_linq.pdb
